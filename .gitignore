@@ -1,0 +1,23 @@
+# intellij ignores
+.idea/
+*.iml
+
+# eclipse ignores
+.settings/
+bin/
+.project
+.classpath
+
+# mvn ignores
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# ignoring mvn wrapper file
+!/.mvn/wrapper/maven-wrapper.jar

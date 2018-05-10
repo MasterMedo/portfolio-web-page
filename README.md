@@ -12,4 +12,5 @@ It will use java as a main programming language, java spring MVC for the server 
 4. git
 
 ## documentation
-Documentation can be found on the wiki pages of this project. It is written in .md file format which is best suited for git repositories. Although there will be a .pdf file every now and then which is just a .md manually converted to .pdf.
+Documentation can be found on the *wiki pages* of this project. It is written in .md file format which is best suited for git repositories. Although there will be a .pdf file every now and then which is just a .md manually converted to .pdf.
+*the documentation folder inside this repository is a diploma seminar*

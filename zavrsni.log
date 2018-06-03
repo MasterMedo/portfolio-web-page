@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.5.11)  12 MAY 2018 15:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.5.11)  28 MAY 2018 09:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -565,22 +565,34 @@ Package: booktabs 2016/04/27 v1.618033 publication quality tables
 \@thisruleclass=\count110
 \@lastruleclass=\count111
 \@thisrulewidth=\dimen144
+)
+(/home/medo/texmf/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
+\ttl@box=\box29
+\beforetitleunit=\skip49
+\aftertitleunit=\skip50
+\ttl@plus=\dimen145
+\ttl@minus=\dimen146
+\ttl@toksa=\toks25
+\titlewidth=\dimen147
+\titlewidthlast=\dimen148
+\titlewidthfirst=\dimen149
 ) (./zavrsni.aux)
 \openout1 = `zavrsni.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 4.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 6.
 
 (/usr/share/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
@@ -622,16 +634,16 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count112
-\scratchdimen=\dimen145
-\scratchbox=\box29
+\scratchdimen=\dimen150
+\scratchbox=\box30
 \nofMPsegments=\count113
 \nofMParguments=\count114
-\everyMPshowfont=\toks25
+\everyMPshowfont=\toks26
 \MPscratchCnt=\count115
-\MPscratchDim=\dimen146
+\MPscratchDim=\dimen151
 \MPnumerator=\count116
 \makeMPintoPDFobject=\count117
-\everyMPtoPDFconversion=\toks26
+\everyMPtoPDFconversion=\toks27
 ) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -686,25 +698,25 @@ e
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Try loading font information for T1+phv on input line 13.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 15.
 
 (/usr/share/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 13.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 15.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 13.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 15.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 13.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 15.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 13.
-LaTeX Font Info:    Try loading font information for U+msa on input line 13.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 15.
+LaTeX Font Info:    Try loading font information for U+msa on input line 15.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 13.
+LaTeX Font Info:    Try loading font information for U+msb on input line 15.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -725,37 +737,67 @@ Poglavlje 1.
 
 ]
 Poglavlje 2.
-<images/mvc.png, id=19, 276.28218pt x 257.46187pt>
-File: images/mvc.png Graphic file (type png)
-<use images/mvc.png>
-Package pdftex.def Info: images/mvc.png  used on input line 31.
-(pdftex.def)             Requested size: 284.52756pt x 265.14546pt.
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 32.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 30.
 [2
 
- <./images/mvc.png>]
+]
 Poglavlje 3.
-No file zavrsni.bbl.
+
+Overfull \hbox (0.99901pt too wide) in paragraph at lines 34--40
+ \T1/ptm/m/n/12 Java je objek-tno ori-jen-ti-rani pro-gram-ski je-zik ra-zvi-je
+n iz pro-gram-skoj je-zika Oak[].
+ []
+
 [3
 
-] [4] (./zavrsni.aux) ) 
+]
+LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 49.
+<images/mvc.png, id=25, 276.28218pt x 257.46187pt>
+File: images/mvc.png Graphic file (type png)
+<use images/mvc.png>
+Package pdftex.def Info: images/mvc.png  used on input line 52.
+(pdftex.def)             Requested size: 142.26378pt x 132.57272pt.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 53.
+ [4
+
+ <./images/mvc.png>] [5
+
+] [6
+
+]
+Poglavlje 4.
+No file zavrsni.bbl.
+[7
+
+]
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 89.
+ (/usr/share/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+) [8
+
+] [9] (./zavrsni.aux) ) 
 Here is how much of TeX's memory you used:
- 5947 strings out of 492982
- 80997 string characters out of 6138579
- 155976 words of memory out of 5000000
- 9382 multiletter control sequences out of 15000+600000
- 44230 words of font info for 51 fonts, out of 8000000 for 9000
+ 6296 strings out of 492982
+ 85350 string characters out of 6138579
+ 163248 words of memory out of 5000000
+ 9705 multiletter control sequences out of 15000+600000
+ 66360 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,6n,40p,274b,352s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,8n,40p,277b,355s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr
-/share/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fo
-nts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/
-utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on zavrsni.pdf (7 pages, 64762 bytes).
+/share/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texmf-dist/fon
+ts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helveti
+c/uhvr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/shar
+e/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texmf-dist/fonts/typ
+e1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pf
+b>
+Output written on zavrsni.pdf (12 pages, 96156 bytes).
 PDF statistics:
- 46 PDF objects out of 1000 (max. 8388607)
- 31 compressed objects within 1 object stream
+ 73 PDF objects out of 1000 (max. 8388607)
+ 50 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

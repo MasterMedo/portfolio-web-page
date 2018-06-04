@@ -26,7 +26,8 @@ Posvećeno svima koji su voljni učiti i neprestano napredovati.
 \footnotetext{git - sustav za upravljanje izvornim kodom nastao 2005.~godine}
 Učinkovito predstavljanje može se postići uz pomoć jedne web stranice koja će omogućavati pregled projekata kroz Git alate, sadržavati linkove na aktivne projekte te omogućiti međusoban kontakt programera i poslodavca putem korisničkog sučelja.
 
-Ovaj rad prolazi kroz cijeli postupak postavljanja aktivne web stranice programera.
+Ovaj rad prolazi kroz postupak postavljanja aktivne web stranice programera.
+Fokus rada nije na izradi najjednostavnije realizacije cilja nego izrada skalabilnog rješenja kojim se funkcionalnost stranice može proširiti u bilokojem trenutku.
 
 \chapter{Arhitektura}
 \section{Korisnici aplikacije}
@@ -67,12 +68,9 @@ Ideja svake od tih cjelina je jasno odrediti gdje se koji dio aplikacije treba n
 		javascript\footnote{javascript - skriptni programski jezik koji se izvršava u web pregledniku}.
 	\item Controller (upravitelj) upravlja korisničkim zahtjevima.
 \end{itemize}
-Dodatno Java Spring definira HandlerAdapter, HandlerInterceptor, HandlerMapping, LocaleResolver, MultipartResolver te ViewResolver koji definiraju gdje se dijelovi koda moraju nalaziti.
-\section{Apache}
+Dodatno Java Spring definira HandlerAdapter, HandlerInterceptor, HandlerMapping, LocaleResolver, MultipartResolver te ViewResolver koji definiraju gdje se dijelovi koda moraju nalaziti za lakše održavanje i razvitak m not aEE aplikacija.
+\section{Apache Tomcat}
 \qquad Apache server
-
-\section{GitWeb}
-\qquad GitWeb
 
 \chapter{Zaključak}
 Korištene tehnologije kao Java Spring MVC i ngnix za napravljeni projekt bile su nepotrebne ili bolje reći \textit{overkill}\footnotemark.

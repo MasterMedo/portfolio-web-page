@@ -1,6 +1,7 @@
 # intellij ignores
 .idea/
 *.iml
+*.properties
 
 # eclipse ignores
 .settings/

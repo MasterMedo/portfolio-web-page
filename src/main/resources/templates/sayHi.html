@@ -4,7 +4,14 @@
     <title>Mislav V. - Hit me up!</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <link rel="stylesheet" type="text/css" th:href="@{/css/brickBackground.css}" />
+    <link rel="stylesheet" type="text/css" th:href="@{/css/styles.css}"/>
 </head>
 <body>
+<a class="back-button" th:href="@{/}" style="color:white">home</a>
+<h1 style="color:white">Message me!</h1>
+<form action="#" th:action="@{/sayHi/resultMessage}" method="get">
+    <textarea th:name="text" th:cols="70" th:rows="5" th:inline="text">[[${defaultMessage}]]</textarea></br>
+    <input class="form-submit-button" type="submit" value="Send!">
+</form>
 </body>
 </html>

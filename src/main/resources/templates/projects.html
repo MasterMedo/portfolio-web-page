@@ -2,9 +2,127 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
     <title>Mislav V. - Projects</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <link rel="stylesheet" type="text/css" th:href="@{/css/brickBackground.css}" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/brickBackground.css}"/>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/styles.css}"/>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/jquery.fullPage.css}"/>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/simplegrid.css}"/>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" th:src="@{/js/jquery.fullPage.js}"></script>
 </head>
 <body>
+
+<div id="fullpage">
+    <div class="section">
+        <a class="back-button" th:href="@{/}" style="color:white">home</a>
+        <h1 style="color:white">Mislav V. Projects</h1>
+        <p>Click on the project name to visit its landing site</p>
+        <div id="scrolldown">
+            <p>Get Started</p>
+            <p>↓</p>
+        </div>
+    </div>
+    <div class="section">
+        <div class="slide">
+            <div class="row">
+                <div class="col-1-12"></div>
+                <div class="col-3-12">
+                    <img width="300px" style="vertical-align: middle;" th:src="@{/img/tall-image.jpg}"/>
+                </div>
+                <div class="col-1-12"></div>
+                <div class="col-6-12">
+                    <h3><a style="text-decoration: none; color:white;" href="https://gitlab.com/MasterMedo/StevilAndRevi/wikis/Lore">Stevil and Revi</a></h3>
+                    <p style="font-size:50px; text-align:justify">Game made in Unity at college on the class
+                        'Fundamentals of digital game development'. The game is co-op couch rouge-like 2 person
+                        platformer in which the first player controls the character and the second controls the map
+                        elements and fires rockets.</p>
+                </div>
+                <div class="col-1-12"></div>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="row">
+                <div class="col-1-12"></div>
+                <div class="col-10-12">
+                    <h3>Lore</h3>
+                    <p id="lore">Stevil woke up to the sight of his home city collapsing. His work had already been
+                        almost destroyed. The only piece of equipment looking even half alive was Revi, his trusty smart
+                        home-robot, as well as the town security system head. In the attack that had just happened
+                        Revi's lost his legs. In all confusion of what's happening Stevil grabbed Revi by his broken
+                        wires and put him on his back as a backpack. The cities security system had been taken over by
+                        some enemies and Stevil's plan is to reach the city core and destroy them. Luckily, Revi still
+                        has some power over the city.</p>
+                </div>
+                <div class="col-1-12"></div>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="row">
+                <div class="col-1-12"></div>
+                <div class="col-10-12">
+                    <img style="max-height: 800px; max-width: 1000px;" th:src="@{/img/wood-lava.jpeg}">
+                </div>
+                <div class="col-1-12"></div>
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="slide">
+            <div class="row">
+                <div class="col-1-12"></div>
+                <div class="col-6-12">
+                    <h3>THREE image transition</h3>
+                    <p style="font-size:50px; text-align:justify">Project made in CodePen by Szenia Zadvornykh. The
+                        animation is done by extending the THREE.js Mesh Phong Material (or Mesh Basic Material) to
+                        include arbitrary animation logic. This way the animation is done on the GPU, right in the
+                        browser.</p>
+                </div>
+                <div class="col-1-12"></div>
+                <div class="col-3-12">
+                    <img width="400px" th:src="@{/img/tall-image.jpg}"/>
+                </div>
+                <div class="col-1-12"></div>
+            </div>
+        </div>
+        <div class="slide">
+            <div id="codepen">
+                <p data-height="635" data-theme-id="33677" data-slug-hash="PNXbGo" data-default-tab="js"
+                   data-user="zadvorsky" data-embed-version="2" data-pen-title="THREE Image Transition" class="codepen">
+                    See the Pen <a href="https://codepen.io/zadvorsky/pen/PNXbGo/">THREE Image Transition</a> by Szenia
+                    Zadvornykh (<a href="https://codepen.io/zadvorsky">@zadvorsky</a>) on <a href="https://codepen.io">CodePen</a>.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="slide">
+            <div class="row">
+                <div class="col-1-12"></div>
+                <div class="col-10-12">
+                    <h3><a style="text-decoration: none; color:white;" href="http://www.mmedo.me">Portfolio website</a></h3>
+                    <img style="max-height: 400px; max-width: 1000px;" th:src="@{/img/portfolio-mirror.png}">
+                </div>
+                <div class="col-1-12"></div>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="row">
+                <div class="col-1-12"></div>
+                <div class="col-1-12"></div>
+                <div class="col-1-12"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        $('#fullpage').fullpage({
+            verticallyCentered: true,
+            resize: true
+        });
+    });
+</script>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 </body>
 </html>

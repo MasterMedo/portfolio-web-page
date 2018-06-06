@@ -2,9 +2,14 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
     <title>Mislav V. - About me</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <link rel="stylesheet" type="text/css" th:href="@{/css/brickBackground.css}" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/brickBackground.css}"/>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/styles.css}"/>
 </head>
 <body>
+<a class="back-button" th:href="@{/}" style="color:white">home</a>
+<h1 style="color:white">Mislav Vuletic</h1>
+<img class="selfie" th:src="@{/img/mislavSelfie.png}">
+<div class="trans-box" th:inline="text">[[${aboutMe}]]</div>
 </body>
 </html>

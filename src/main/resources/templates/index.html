@@ -4,16 +4,29 @@
     <title>Mislav Vuletić - Portfolio</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <link rel="stylesheet" type="text/css" th:href="@{/css/brickBackground.css}"/>
-    <link rel="stylesheet" type="text/scss" th:href="@{/css/header.scss}"/>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/styles.css}"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css">
     <link>
 </head>
 <body>
-<div class="header">
-    <h1 class="header_logo">Resizing Fixed Header</h1>
+<h1 style="color:white">Mislav V. Portfolio</h1>
+
+<a th:href="@{/sayHi}" style="color:white">sayHi</a>
+<a th:href="@{/about}" style="color:white">about</a>
+<a th:href="@{/resume}" style="color:white">resume</a>
+<a th:href="@{/projects}" style="color:white">projects</a>
+
+<div class="container">
+    <div class="social-media">
+        <div class="media-icon"><a href="https://www.facebook.com/MasterMMedo"><i class="fab fa-facebook-f"></i></a>
+        </div>
+        <div class="media-icon"><a href="https://www.linkedin.com/in/mislav-vuletić-67a62b143/"><i
+                class="fab fa-linkedin-in"></i></a></div>
+        <div class="media-icon"><a href="https://youtu.be/VoX9WIM6OoY"><i class="fab fa-youtube"></i></a></div>
+        <div class="media-icon"><a href="https://codepen.io/mastermedo/#"><i class="fab fa-codepen"></i></a></div>
+        <div class="media-icon"><a href="https://github.com/mastermedo"><i class="fab fa-github"></i></a></div>
+        <div class="media-icon"><a href="https://gitlab.com/MasterMedo"><i class="fab fa-gitlab"></i></a></div>
+    </div>
 </div>
-<div class="offset">
-    <p>Scroll down to initiate resizing of the page header.</p>
-</div>
-<script type="text/javascript" src="/js/header.js"></script>
 </body>
 </html>

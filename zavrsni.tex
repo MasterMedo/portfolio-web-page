@@ -33,13 +33,20 @@ Fokus rada nije na izradi najjednostavnije realizacije cilja nego izrada skalabi
 \section{Korisnici aplikacije}
 
 \chapter{Tehnologije}
-\section{Programski jezik Java}
+\section{Jezik i generiranje pogleda}
+\subsection{Programski jezik Java}
 \qquad Java je objektno orijentirani programski jezik razvijen iz programskoj jezika Oak\footnotemark{}.
 \footnotetext{Oak - programski jezik razvijen 1991., evoluirao u programski jezik Java 1995.}
 Centralna ideja u razvoju programskog jezika Java bila je potpora za više platformnost.
 Tako se danas Javin virtualni stroj može vrtiti na gotovo svim platformama; od Linuxa, Solarisa, Mac OS-a do Windowsa.
 Druga bitna stavka je da je Java programerima potpuno nebitno hoće li se njihov program izvoditi na 32-bitnom ili 64-bitnom sustavu.
 To je zato što Javina specifikacija definira apstraktni računski virtualni stroj kod kojeg je sve propisano.
+\subsection{Thymeleaf}
+\qquad Thymeleaf je moderan skup modela za razvitak samostojećih web aplikacija koji se vrti na poslužitelju.
+Služi za serviranje XHTML ili HTML5 datoteka.
+Thymeleaf teži potpuno nadomjestiti \textit{JSP}\footnotemark{}, te učiniti tehnologiju jednostavnijom za korištenje.
+\footnotetext{JSP - Java Server Pages, služi dinamičkom generiranju HTML, XML i drugih tipova datoteka}
+Glavni razlog korištenja Thymeleaf-a jest što nudi elegantna rješenja za razvojni tijek rada kroz HTML.
 
 \section{Java Spring Model-View-Controller}
 \qquad Java Spring MVC je modul vrlo popularnog \textit{framework}-a\footnotemark{} Java Spring koji je zaživio u prvom desetljeću 21.~stoljeća.
@@ -68,9 +75,40 @@ Ideja svake od tih cjelina je jasno odrediti gdje se koji dio aplikacije treba n
 		javascript\footnote{javascript - skriptni programski jezik koji se izvršava u web pregledniku}.
 	\item Controller (upravitelj) upravlja korisničkim zahtjevima.
 \end{itemize}
-Dodatno Java Spring definira HandlerAdapter, HandlerInterceptor, HandlerMapping, LocaleResolver, MultipartResolver te ViewResolver koji definiraju gdje se dijelovi koda moraju nalaziti za lakše održavanje i razvitak m not aEE aplikacija.
-\section{Apache Tomcat}
-\qquad Apache server
+Dodatno Java Spring definira HandlerAdapter, HandlerInterceptor, HandlerMapping, LocaleResolver, MultipartResolver te ViewResolver koji definiraju gdje se dijelovi koda moraju nalaziti za lakše održavanje i razvitak EE\footnotemark{} aplikacija.
+\footnotetext{EE - \textit{enterprise edition}, odnosno aplikacije velikog spektra}
+
+\section{Pokretanje aplikacije na poslužitelju}
+\subsection{Digital Ocean}
+\qquad Digital Ocean je servis koji nudi najam poslužiteljskih računala na njihovom oblaku.
+Sjedište im je u New York-u, no imaju servere u cijelom svijetu što dopušta korisnicima da postave svoju aplikaciju na više lokacija po svijetu kako bi se njihova web stranica brže učitavala.
+\subsection{Apache Tomcat}
+\qquad Apache Tomcat program je \textit{open source} implementacija Javinih servleta te \textit{JSP}\footnotemark{}, \textit{JEL}\footnotemark{} i \textit{JWS}\footnotemark{} specifikacija razvijenih od Java programera.
+\footnotetext{JSP - Java Server Pages}
+\footnotetext{JEL - Java Expression Language}
+\footnotetext{JWS - Java WebSocket}
+Služi kao potpuno Java okruženje za izvođenje HTTP web okruženja na kojima se Java kod može izvoditi.
+
+\section{Korištene biblioteke}
+\subsection{SimpleGrid.css}
+\qquad Simple Grid je jednostavna css mreža koja nudi podjeljivanje stranice u 12 stupaca.
+Napravljena je s pogledom na mobitelu na prvom mjestu te se svi stupci protežu do rubova ekrana na manjim ekranima.
+U našem projektu ova biblioteka se koristi na stranici \textit{/projects} za jednostavniji razmještaj elemenata u web pregledniku.
+\subsection{fullPage.js}
+\qquad FullPage.js je tehnologija koja omogučava korisniku da vrlo jednostavno postavi web stranicu na kojoj je omogučeno pomicanje za cijelu stranicu koristeći \textit{scroll} tipku\footnotemark{} na mišu.
+Tehnologija je vrlo popularna te je koriste kompanije poput Google, Coca Cola, Ebay, itd.
+\footnotetext{scroll - gumb klizaća, nalazi se između lijeve i desne tipke na mišu}
+\subsection{Google fonts}
+\qquad Google fonts je kolekcija interaktivnih sučelja koje omogučuju korisniku odabir fonta za tekst koji se nalazi na njegovoj stranici.
+Usluga je podržana od kompanije Google te se ne naplaćuje niti sama usluga niti brzina dohvaćanja fonta s njihovih poslužiteljskih računala.
+\subsection{CodePen api}
+\qquad CodePen je socijalno mrežno okruženje za razvijanje jednostavnih programa koristeći \textit{html}, \textit{css} i \textit{javascript} direktno u web pregledniku.
+Okruženje se sastoji od četiri polja, gdje tri od ta četiri pripadaju jezicima navedenima prije, a zadnje polje služi pregledu rezultata.
+CodePen sučelje dozvoljava ugradnju tog okruženja u vlastitu stranicu.
+\subsection{SvgBackgrounds}
+\qquad SvgBackgrounds je priključak za web aplikacije.
+Omogučava postavljanje \textit{SVG}\footnotemark{} pozadina veličine 5KB te je podržan od većine web preglednika koji se danas koriste.
+\footnotetext{SVG - slike određene vektorima u XML formatu}
 
 \chapter{Zaključak}
 Korištene tehnologije kao Java Spring MVC i ngnix za napravljeni projekt bile su nepotrebne ili bolje reći \textit{overkill}\footnotemark.
@@ -79,7 +117,7 @@ Korištene tehnologije kao Java Spring MVC i ngnix za napravljeni projekt bile s
 \bibliography{literatura}
 \bibliographystyle{fer}
 \begin{thebibliography}{9}
-\bibitem{}
+\bibitem{programiranje-u-javi}
 				Marko Čupić.
 				\textit{Programiranje u Javi}.
 				Inačica 30. rujna 2015.
@@ -92,6 +130,30 @@ Korištene tehnologije kao Java Spring MVC i ngnix za napravljeni projekt bile s
 \bibitem{java-spring}
 				Spring by Pivotal,
 				\\\texttt{spring.io}
+
+\bibitem{w3schools}
+				W3Schools Online Web Tutorials
+				\\\texttt{https://www.w3schools.com/}
+
+\bibitem{stackoverflow}
+				StackOverflow,
+				\\\texttt{https://stackoverflow.com/}
+
+\bibitem{svgbackgrounds}
+				SVGBackgrounds,
+				\\\texttt{https://www.svgbackgrounds.com/}
+
+\bibitem{three-image-transition}
+				THREE Image Transition,
+				Szenia Zadvornykh.
+				\texttt{https://codepen.io/zadvorsky/pen/PNXbGo}
+
+\bibitem{}
+\bibitem{}
+\bibitem{}
+\bibitem{}
+\bibitem{}
+\bibitem{}
 \end{thebibliography}
 
 \begin{sazetak}

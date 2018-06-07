@@ -3,8 +3,17 @@
 \contentsline {chapter}{\numberline {2}Arhitektura}{2}
 \contentsline {section}{\numberline {2.1}Korisnici aplikacije}{2}
 \contentsline {chapter}{\numberline {3}Tehnologije}{3}
-\contentsline {section}{\numberline {3.1}Programski jezik Java}{3}
+\contentsline {section}{\numberline {3.1}Jezik i generiranje pogleda}{3}
+\contentsline {subsection}{\numberline {3.1.1}Programski jezik Java}{3}
+\contentsline {subsection}{\numberline {3.1.2}Thymeleaf}{3}
 \contentsline {section}{\numberline {3.2}Java Spring Model-View-Controller}{4}
-\contentsline {section}{\numberline {3.3}Apache}{5}
-\contentsline {section}{\numberline {3.4}GitWeb}{6}
+\contentsline {section}{\numberline {3.3}Pokretanje aplikacije na poslu\IeC {\v z}itelju}{5}
+\contentsline {subsection}{\numberline {3.3.1}Digital Ocean}{5}
+\contentsline {subsection}{\numberline {3.3.2}Apache Tomcat}{5}
+\contentsline {section}{\numberline {3.4}Kori\IeC {\v s}tene biblioteke}{6}
+\contentsline {subsection}{\numberline {3.4.1}SimpleGrid.css}{6}
+\contentsline {subsection}{\numberline {3.4.2}fullPage.js}{6}
+\contentsline {subsection}{\numberline {3.4.3}Google fonts}{6}
+\contentsline {subsection}{\numberline {3.4.4}CodePen api}{6}
+\contentsline {subsection}{\numberline {3.4.5}SvgBackgrounds}{6}
 \contentsline {chapter}{\numberline {4}Zaklju\IeC {\v c}ak}{7}

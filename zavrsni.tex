@@ -29,10 +29,36 @@ Učinkovito predstavljanje može se postići uz pomoć jedne web stranice koja �
 Ovaj rad prolazi kroz postupak postavljanja aktivne web stranice programera.
 Fokus rada nije na izradi najjednostavnije realizacije cilja nego izrada skalabilnog rješenja kojim se funkcionalnost stranice može proširiti u bilokojem trenutku.
 
-\chapter{Arhitektura}
-\section{Korisnici aplikacije}
+\chapter{Ideja}
+\section{Funkcionalni i nefunkcionalni zahtjevi}
+\subsection{Funkcionalni zahtjevi}
+\qquad Vlastita portfolio web stranica programera mora sadržavati opis programera, njegove kontaktne informacije te brze poveznice na stranice git repozitorija i stranice socijalnih mreža.
+Programsko rješenje mora posjedovati mogučnost komunikacije s programerom direktno na stranici, poput slanja mail poruke.
+Nadalje, web stranica mora imati sistematičan odjeljak za projekte na kojima je programer radio.
+To znači da svaki projekt mora imati svoje mjesto na stranici koje će sadržavati ime projekta, kratki opis projekta, sliku projekta te mogući daljnji sadržaj prema potrebi.
+Na stranici mora postojati način posluživanja CV dokumenta, odnosno životopisa u pdf formatu.
 
-\chapter{Tehnologije}
+\subsection{Nefunkcionalni zahtjevi}
+\qquad Vlastita portfolio web stranica programera mora koristiti vlastitu domenu programera.
+Mora biti podignuta na udaljenom poslužitelju, odnosno serveru.
+Stranica mora biti moderna i jednostavna.
+To znači da mora biti privlačna potencijalnom poslodavcu.
+Web sjedište također mora biti jednostavno i intuitivno za korištenje, što podrazumijeva brze poveznice za laku navigaciju.
+
+\section{Istraživanje i sakupljanje informacija}
+\subsection{Portfolio stranice nekih programera}
+\qquad Prije kretanja na posao smišljanja vlastitog uređenja stranice cilj je bio istražiti kako su drugi programeri postigli učinak privlačenja pažnje potencijalnih poslodavaca.
+Stranica \textit{www.creative-portfolios.com} nam je uvelike olakšala posao obzirom da se održava dnevno te se mogu pratiti promjene na stranicama github-a.
+Web sjedišta koja se posebno ističu su: \textit{cihadturhan.com}, \textit{fishnation.de} te \textit{eli.wtf}.
+Ono što ove stranice čini vrijedne izbora je autentičnost te vrlo intuitivno pronalaženje informacija. Slika 2.1 prikazuje zaslon trenutnih vještina programera sa stranice \textit{cihadturhan.com}.
+
+\begin{figure}[htb]
+				\includegraphics[width=14.6cm]{images/skills.png}
+				\caption{Slika 2.1 vještine programera}
+				\label{fig:skills}
+\end{figure}
+
+\chapter{Tehnologije rješenja}
 \section{Jezik i generiranje pogleda}
 \subsection{Programski jezik Java}
 \qquad Java je objektno orijentirani programski jezik razvijen iz programskoj jezika Oak\footnotemark{}.
@@ -110,9 +136,42 @@ CodePen sučelje dozvoljava ugradnju tog okruženja u vlastitu stranicu.
 Omogučava postavljanje \textit{SVG}\footnotemark{} pozadina veličine 5KB te je podržan od većine web preglednika koji se danas koriste.
 \footnotetext{SVG - slike određene vektorima u XML formatu}
 
+\chapter{Opis rješenja}
+\section{Početna stranica}
+\qquad Početna stranica nalazi se na poveznici \textit{mmedo.me}.
+\section{Stranica za slanje poruke}
+\qquad Stranica za slanje poruke sadrži poveznicu za povratak na početnu stranicu te prostor za unos poruke i tipku za slanje poruke. Slika prikazuje stranicu sa primjerom poruke koji se nalazi na stranici pri učitavanju.
+
+\begin{figure}[htb]
+				\centering
+				\includegraphics[width=14.6cm]{images/message.png}
+				\caption{Slika stranice za slanje poruke}
+				\label{fig:message}
+\end{figure}
+
+\section{Stranica opisa programera}
+\qquad Stranica opisa programera nalazi se na poveznici \textit{mmedo.me/about}.
+
+\section{Dohvat životopisa programera}
+\qquad Pri paljenju aplikacija iz memorije se s diska učitava pdf datoteka u bajtovima.
+No kako doći do nje korištenjem stranice?
+Na početnoj stranici se pritisne na brzu poveznicu \textit{resume}.
+Tada aplikacija prosljeđuje zahtjev drugom kontroleru na poveznicu \textit{mmedo.me/resume} 
+Kontroler učitano polje bajtova pohranjuje u http zaglavnje u kojem postavlja tip datoteke na pdf, te upute da datoteku web preglednik ne treba skinuti nego direktno prikazati u web pregledniku s ugrađenim pdf preglednikom.
+Ukoliko korišteni web preglednik nema ugrađen pdf preglednik datoteka će biti skinuta na disk.
+
+\section{Stranica projekata}
+\qquad Stranica projekata nalazi se na poveznici \textit{mmedo.me/projects}.
+Stranicu projekata možemo zamisliti kao dvodimenzionalni koordinatni sustav.
+Pomicanjem po ordinati koordinatnog sustava listamo projekte.
+Pomicanjem po apscisi koordinatne mreže listamo pojedinosti odabranog projekta.
+Takav pristup omogučen je korištenjem \textit{fullpage.js} biblioteke.
+Ona nam omogučava sigurnost da klizačem ne možemo dospjeti između dva polja u našoj koordinatnoj mreži.
+
+\section{Stranica pogreške}
+\qquad Stranica pogreške nalazi se na \textit{mmedo.me/error} no svi nepostojeći linkovi također vode na tu stranicu.
+
 \chapter{Zaključak}
-Korištene tehnologije kao Java Spring MVC i ngnix za napravljeni projekt bile su nepotrebne ili bolje reći \textit{overkill}\footnotemark.
-\footnotetext{overkill - pretjerano, rušiti dvorac od pijeska buldožerom}
 
 \bibliography{literatura}
 \bibliographystyle{fer}

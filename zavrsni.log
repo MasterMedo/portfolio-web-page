@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.5.11)  7 JUN 2018 09:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.5.11)  8 JUN 2018 14:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -593,12 +593,6 @@ Package natbib Warning: Citation `' multiply defined.
 
 Package natbib Warning: Citation `' multiply defined.
 
-
-Package natbib Warning: Citation `' multiply defined.
-
-
-Package natbib Warning: Citation `' multiply defined.
-
 )
 \openout1 = `zavrsni.aux'.
 
@@ -746,13 +740,13 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [3] (./zavrsni.toc
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 2.
-)
+ [4
+
+])
 \tf@toc=\write3
 \openout3 = `zavrsni.toc'.
 
- [4
-
-]
+ [5]
 Poglavlje 1.
 [1
 
@@ -763,70 +757,109 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
 [2
 
 ]
+<images/skills.png, id=25, 1458.44875pt x 777.90625pt>
+File: images/skills.png Graphic file (type png)
+<use images/skills.png>
+Package pdftex.def Info: images/skills.png  used on input line 56.
+(pdftex.def)             Requested size: 415.4104pt x 221.56314pt.
+
+Overfull \hbox (2.84543pt too wide) in paragraph at lines 56--57
+[][] 
+ []
+
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 57.
+[3
+
+ <./images/skills.png>]
 Poglavlje 3.
 
-Overfull \hbox (0.99901pt too wide) in paragraph at lines 38--44
+Overfull \hbox (0.99901pt too wide) in paragraph at lines 64--70
  \T1/ptm/m/n/12 Java je objek-tno ori-jen-ti-rani pro-gram-ski je-zik ra-zvi-je
 n iz pro-gram-skoj je-zika Oak[].
  []
 
-[3
+[4
 
 ]
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <12> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 59.
-<images/mvc.png, id=26, 276.28218pt x 257.46187pt>
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 85.
+<images/mvc.png, id=36, 276.28218pt x 257.46187pt>
 File: images/mvc.png Graphic file (type png)
 <use images/mvc.png>
-Package pdftex.def Info: images/mvc.png  used on input line 62.
+Package pdftex.def Info: images/mvc.png  used on input line 88.
 (pdftex.def)             Requested size: 142.26378pt x 132.57272pt.
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 63.
- [4
+ [5
 
- <./images/mvc.png>] [5
+ <./images/mvc.png>] [6
 
-] [6
+] [7
 
 ]
 Poglavlje 4.
-No file zavrsni.bbl.
-[7
+[8
 
 ]
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 127.
+<images/message.png, id=50, 987.69pt x 648.4225pt>
+File: images/message.png Graphic file (type png)
+<use images/message.png>
+Package pdftex.def Info: images/message.png  used on input line 147.
+(pdftex.def)             Requested size: 415.4104pt x 272.71156pt.
+
+Overfull \hbox (2.84543pt too wide) in paragraph at lines 147--148
+ [][] 
+ []
+
+[9
+
+ <./images/message.png>] [10
+
+] [11
+
+]
+Poglavlje 5.
+No file zavrsni.bbl.
+[12
+
+]
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 181.
  (/usr/share/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-) [8
+)
+Underfull \hbox (badness 10000) in paragraph at lines 201--204
+[]\T1/ptm/m/n/12 THREE Image Tran-si-tion, Sze-nia Za-dvor-nykh.
+ []
+
+[13
 
 ]
 
 Package natbib Warning: There were multiply defined citations.
 
-[9] (./zavrsni.aux
+[14] (./zavrsni.aux
 
 Package natbib Warning: Citation(s) may have changed.
 (natbib)                Rerun to get citations correct.
 
 ) ) 
 Here is how much of TeX's memory you used:
- 6317 strings out of 492982
- 85745 string characters out of 6138579
- 164344 words of memory out of 5000000
- 9724 multiletter control sequences out of 15000+600000
+ 6331 strings out of 492982
+ 86048 string characters out of 6138579
+ 165394 words of memory out of 5000000
+ 9737 multiletter control sequences out of 15000+600000
  70315 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,8n,40p,277b,355s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,8n,40p,277b,341s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fo
 nts/type1/urw/courier/ucrr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helveti
 c/uhvb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/s
 hare/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/t
 ype1/urw/times/utmbi8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.
 pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on zavrsni.pdf (12 pages, 103928 bytes).
+Output written on zavrsni.pdf (18 pages, 356471 bytes).
 PDF statistics:
- 73 PDF objects out of 1000 (max. 8388607)
- 50 compressed objects within 1 object stream
+ 97 PDF objects out of 1000 (max. 8388607)
+ 64 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

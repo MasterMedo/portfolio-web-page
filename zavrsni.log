@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.5.11)  8 JUN 2018 14:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.5.11)  10 JUN 2018 11:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -800,66 +800,148 @@ Poglavlje 4.
 [8
 
 ]
-<images/message.png, id=50, 987.69pt x 648.4225pt>
-File: images/message.png Graphic file (type png)
-<use images/message.png>
-Package pdftex.def Info: images/message.png  used on input line 147.
-(pdftex.def)             Requested size: 415.4104pt x 272.71156pt.
+<images/front-page.png, id=50, 505.89pt x 298.86656pt>
+File: images/front-page.png Graphic file (type png)
+<use images/front-page.png>
+Package pdftex.def Info: images/front-page.png  used on input line 150.
+(pdftex.def)             Requested size: 415.4104pt x 245.41873pt.
 
-Overfull \hbox (2.84543pt too wide) in paragraph at lines 147--148
+Overfull \hbox (2.84543pt too wide) in paragraph at lines 150--151
+ [][] 
+ []
+
+<images/start-page.png, id=51, 794.2172pt x 256.70906pt>
+File: images/start-page.png Graphic file (type png)
+<use images/start-page.png>
+Package pdftex.def Info: images/start-page.png  used on input line 159.
+(pdftex.def)             Requested size: 415.4104pt x 134.27287pt.
+
+Overfull \hbox (2.84543pt too wide) in paragraph at lines 159--160
  [][] 
  []
 
 [9
 
- <./images/message.png>] [10
+ <./images/front-page.png (PNG copy)> <./images/start-page.png (PNG copy)>]
+<images/message.png, id=56, 987.69pt x 648.4225pt>
+File: images/message.png Graphic file (type png)
+<use images/message.png>
+Package pdftex.def Info: images/message.png  used on input line 169.
+(pdftex.def)             Requested size: 415.4104pt x 272.71156pt.
 
-] [11
+Overfull \hbox (2.84543pt too wide) in paragraph at lines 169--170
+ [][] 
+ []
 
-]
-Poglavlje 5.
-No file zavrsni.bbl.
+[10
+
+ <./images/message.png>]
+<images/about.png, id=61, 864.22874pt x 490.08093pt>
+File: images/about.png Graphic file (type png)
+<use images/about.png>
+Package pdftex.def Info: images/about.png  used on input line 183.
+(pdftex.def)             Requested size: 415.4104pt x 235.5652pt.
+
+Overfull \hbox (2.84543pt too wide) in paragraph at lines 183--184
+ [][] 
+ []
+
+[11
+
+ <./images/about.png (PNG copy)>]
+<images/resume.png, id=65, 659.46375pt x 181.42781pt>
+File: images/resume.png Graphic file (type png)
+<use images/resume.png>
+Package pdftex.def Info: images/resume.png  used on input line 201.
+(pdftex.def)             Requested size: 415.4104pt x 114.28905pt.
+
+Overfull \hbox (2.84543pt too wide) in paragraph at lines 201--202
+ [][] 
+ []
+
 [12
 
-]
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 181.
- (/usr/share/texmf-dist/tex/latex/psnfss/t1pcr.fd
-File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-)
-Underfull \hbox (badness 10000) in paragraph at lines 201--204
-[]\T1/ptm/m/n/12 THREE Image Tran-si-tion, Sze-nia Za-dvor-nykh.
+ <./images/resume.png (PNG copy)>]
+<images/projects-main.png, id=69, 565.36218pt x 397.485pt>
+File: images/projects-main.png Graphic file (type png)
+<use images/projects-main.png>
+Package pdftex.def Info: images/projects-main.png  used on input line 216.
+(pdftex.def)             Requested size: 415.4104pt x 292.06609pt.
+
+Overfull \hbox (2.84543pt too wide) in paragraph at lines 216--217
+ [][] 
  []
 
 [13
+
+ <./images/projects-main.png (PNG copy)>]
+<images/projects-img-text.png, id=73, 916.92563pt x 400.49625pt>
+File: images/projects-img-text.png Graphic file (type png)
+<use images/projects-img-text.png>
+Package pdftex.def Info: images/projects-img-text.png  used on input line 227.
+(pdftex.def)             Requested size: 415.4104pt x 181.44386pt.
+
+Overfull \hbox (2.84543pt too wide) in paragraph at lines 227--228
+ [][] 
+ []
+
+[14 <./images/projects-img-text.png (PNG copy)>]
+<images/error.png, id=77, 706.13812pt x 291.33844pt>
+File: images/error.png Graphic file (type png)
+<use images/error.png>
+Package pdftex.def Info: images/error.png  used on input line 239.
+(pdftex.def)             Requested size: 415.4104pt x 171.39029pt.
+
+Overfull \hbox (2.84543pt too wide) in paragraph at lines 239--240
+ [][] 
+ []
+
+[15
+
+ <./images/error.png (PNG copy)>]
+Poglavlje 5.
+No file zavrsni.bbl.
+[16
+
+]
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 256.
+ (/usr/share/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 276--279
+[]\T1/ptm/m/n/12 THREE Image Tran-si-tion, Sze-nia Za-dvor-nykh.
+ []
+
+[17
 
 ]
 
 Package natbib Warning: There were multiply defined citations.
 
-[14] (./zavrsni.aux
+[18] (./zavrsni.aux
 
 Package natbib Warning: Citation(s) may have changed.
 (natbib)                Rerun to get citations correct.
 
 ) ) 
 Here is how much of TeX's memory you used:
- 6331 strings out of 492982
- 86048 string characters out of 6138579
- 165394 words of memory out of 5000000
- 9737 multiletter control sequences out of 15000+600000
+ 6373 strings out of 492982
+ 86955 string characters out of 6138579
+ 165470 words of memory out of 5000000
+ 9772 multiletter control sequences out of 15000+600000
  70315 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,8n,40p,277b,341s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,8n,40p,281b,341s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fo
 nts/type1/urw/courier/ucrr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helveti
 c/uhvb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/s
 hare/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/t
 ype1/urw/times/utmbi8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.
 pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on zavrsni.pdf (18 pages, 356471 bytes).
+Output written on zavrsni.pdf (22 pages, 1152985 bytes).
 PDF statistics:
- 97 PDF objects out of 1000 (max. 8388607)
- 64 compressed objects within 1 object stream
+ 117 PDF objects out of 1000 (max. 8388607)
+ 73 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 

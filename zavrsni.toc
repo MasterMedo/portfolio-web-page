@@ -21,9 +21,10 @@
 \contentsline {subsection}{\numberline {3.4.4}CodePen api}{7}
 \contentsline {subsection}{\numberline {3.4.5}SvgBackgrounds}{7}
 \contentsline {chapter}{\numberline {4}Opis rje\IeC {\v s}enja}{8}
-\contentsline {section}{\numberline {4.1}Po\IeC {\v c}etna stranica}{8}
-\contentsline {section}{\numberline {4.2}Stranica za slanje poruke}{9}
-\contentsline {section}{\numberline {4.3}Stranica opisa programera}{10}
-\contentsline {section}{\numberline {4.4}Dohvat \IeC {\v z}ivotopisa programera}{10}
-\contentsline {section}{\numberline {4.5}Stranica projekata}{11}
-\contentsline {chapter}{\numberline {5}Zaklju\IeC {\v c}ak}{12}
+\contentsline {section}{\numberline {4.1}Po\IeC {\v c}etna stranica}{9}
+\contentsline {section}{\numberline {4.2}Stranica za slanje poruke}{10}
+\contentsline {section}{\numberline {4.3}Stranica opisa programera}{11}
+\contentsline {section}{\numberline {4.4}Dohvat \IeC {\v z}ivotopisa programera}{12}
+\contentsline {section}{\numberline {4.5}Stranica projekata}{13}
+\contentsline {section}{\numberline {4.6}Stranica pogre\IeC {\v s}ke}{15}
+\contentsline {chapter}{\numberline {5}Zaklju\IeC {\v c}ak}{16}

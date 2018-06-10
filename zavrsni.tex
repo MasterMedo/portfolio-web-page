@@ -137,8 +137,30 @@ Omogučava postavljanje \textit{SVG}\footnotemark{} pozadina veličine 5KB te je
 \footnotetext{SVG - slike određene vektorima u XML formatu}
 
 \chapter{Opis rješenja}
+\qquad Konačno rješenje se sastoji od 7 stranica.
+Korijenska/početna stranica koja se nalazi na \textit{mmedo.me} te ostalih 6 stranica koje se nalaze na stranicama \textit{/sayHi}, \textit{/about}, \textit{/resume}, \textit{/projects}, \textit{/resultMessage} te \textit{/error}.
+Svaku od navedenih poveznica rješava pripadajući kontroler u Java Spring MVC poretku prosljeđujući pripadajući pogled.
+
+\pagebreak
 \section{Početna stranica}
 \qquad Početna stranica nalazi se na poveznici \textit{mmedo.me}.
+
+\begin{figure}[htb]
+				\centering
+				\includegraphics[width=14.6cm]{images/front-page.png}
+				\caption{Slika početne stranice}
+				\label{fig:front-page}
+\end{figure}
+
+Na stranici se nalaze brze poveznice za dolazak na stranice za slanje poruke, stranice opisa programera, stranicu projekata te brzu poveznicu za dohvaćanje životopisa programera. Nadalje na stranici se nalaze brze poveznice do socijalnih mreža programera.
+
+\begin{figure}[htb]
+				\centering
+				\includegraphics[width=14.6cm]{images/start-page.png}
+				\caption{Slika koda početne stranice}
+				\label{fig:start-page}
+\end{figure}
+
 \section{Stranica za slanje poruke}
 \qquad Stranica za slanje poruke sadrži poveznicu za povratak na početnu stranicu te prostor za unos poruke i tipku za slanje poruke. Slika prikazuje stranicu sa primjerom poruke koji se nalazi na stranici pri učitavanju.
 
@@ -149,8 +171,22 @@ Omogučava postavljanje \textit{SVG}\footnotemark{} pozadina veličine 5KB te je
 				\label{fig:message}
 \end{figure}
 
+Nakon što korisnik unese poruku i pritisne tipku send unešena poruka se prosljeđuje modelu u Java Spring MVC poretku te on popunjava mail i šalje poruku sa gmail klijenta na drugog gmail klijenta s danom porukom koji poruku smješta u pripadni sandučić.
+Nakon obrađivanja zahtjeva korisnik je prosljeđen na brzu poveznicu \textit{/sayHi/resultMessage} s pripadajućom porukom.
+Najčešće "\textit{Mail successfully sent}" ili "\textit{Whoops, something went wrong, try again later}".
+
 \section{Stranica opisa programera}
 \qquad Stranica opisa programera nalazi se na poveznici \textit{mmedo.me/about}.
+
+\begin{figure}[htb]
+				\centering
+				\includegraphics[width=14.6cm]{images/about.png}
+				\caption{Slika stranice za prikaz opisa progamera}
+				\label{fig:about}
+\end{figure}
+
+Na stranici su dostupne opće informacije programera, poput punog imena programera, slike programera te ostalih informacija navedenih u tekstu.
+Na stranici se također nalazi brza poveznica na početnu stranicu.
 
 \section{Dohvat životopisa programera}
 \qquad Pri paljenju aplikacija iz memorije se s diska učitava pdf datoteka u bajtovima.
@@ -160,6 +196,13 @@ Tada aplikacija prosljeđuje zahtjev drugom kontroleru na poveznicu \textit{mmed
 Kontroler učitano polje bajtova pohranjuje u http zaglavnje u kojem postavlja tip datoteke na pdf, te upute da datoteku web preglednik ne treba skinuti nego direktno prikazati u web pregledniku s ugrađenim pdf preglednikom.
 Ukoliko korišteni web preglednik nema ugrađen pdf preglednik datoteka će biti skinuta na disk.
 
+\begin{figure}[htb]
+				\centering
+				\includegraphics[width=14.6cm]{images/resume.png}
+				\caption{Slika načina dohvata pdf datoteke}
+				\label{fig:resume}
+\end{figure}
+
 \section{Stranica projekata}
 \qquad Stranica projekata nalazi se na poveznici \textit{mmedo.me/projects}.
 Stranicu projekata možemo zamisliti kao dvodimenzionalni koordinatni sustav.
@@ -168,8 +211,35 @@ Pomicanjem po apscisi koordinatne mreže listamo pojedinosti odabranog projekta.
 Takav pristup omogučen je korištenjem \textit{fullpage.js} biblioteke.
 Ona nam omogučava sigurnost da klizačem ne možemo dospjeti između dva polja u našoj koordinatnoj mreži.
 
+\begin{figure}[htb]
+				\centering
+				\includegraphics[width=14.6cm]{images/projects-main.png}
+				\caption{Slika početne stranice projekata}
+				\label{fig:projects-main}
+\end{figure}
+
+\pagebreak
+\qquad Na slici možemo vidjeti navigacijske tipke na lijevoj i desnoj strani u obliku trokuta.
+Pritiskom na desnu tipku stranica koju trenutno gledamo pomaknuti će se ulijevo, te će novo polje koordinatne mreže doći u gledište.
+
+\begin{figure}[htb]
+				\centering
+				\includegraphics[width=14.6cm]{images/projects-img-text.png}
+				\caption{Slika stranice konkretnog projekta}
+				\label{fig:projects-img-text}
+\end{figure}
+
 \section{Stranica pogreške}
-\qquad Stranica pogreške nalazi se na \textit{mmedo.me/error} no svi nepostojeći linkovi također vode na tu stranicu.
+\qquad Stranica pogreške nalazi se na \textit{mmedo.me/error}.
+Svaki puta kada se dogodi pogreška korisnik je preusmjeren na tu stranicu.
+To vrijedi i kada je unesena nepostojeća poveznica poput \textit{mmedo.me/invalid}.
+
+\begin{figure}[htb]
+				\centering
+				\includegraphics[width=14.6cm]{images/error.png}
+				\caption{Slika stranice pogreške}
+				\label{fig:error}
+\end{figure}
 
 \chapter{Zaključak}
 
@@ -206,13 +276,6 @@ Ona nam omogučava sigurnost da klizačem ne možemo dospjeti između dva polja 
 				THREE Image Transition,
 				Szenia Zadvornykh.
 				\texttt{https://codepen.io/zadvorsky/pen/PNXbGo}
-
-\bibitem{}
-\bibitem{}
-\bibitem{}
-\bibitem{}
-\bibitem{}
-\bibitem{}
 \end{thebibliography}
 
 \begin{sazetak}
